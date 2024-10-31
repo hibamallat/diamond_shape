@@ -1,4 +1,8 @@
 row_num = int(input("enter number of rows: "))
+
+if row_num <= 0:
+    print("The number should be positive")
+    
 #The top half of the diamond
 for i in range(1, row_num + 1):
 
